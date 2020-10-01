@@ -1,5 +1,6 @@
 #add by branch:
-> git checkout -b first-branch
-> git edit
-> git commint -m"add new branch"
-> git push -u origin first-branch
+> git branch (list all of branch)
+> git branch your-name-branch (create new branch)
+> git status (check folder is changed or not)
+> git commit -m"add your message when u push code"
+> git push -u origin your-branch-name
