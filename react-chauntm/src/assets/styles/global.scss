@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    color: #4a4949;
+}
+@media only screen and (max-width: 1330px) {
+    #home-container,#home-page-right {
+        width: max-content;
+    }
+}
+.page-container{
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+}
+.w10{
+    width: 10%;
+}
+.w70{
+    width: 70%;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.pd-10{
+    padding-left: 10px;
+}
+.flex-box{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.display-text{
+    color:#797979;
+    font-size: 1.1rem;
+}

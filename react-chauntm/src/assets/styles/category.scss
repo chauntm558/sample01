@@ -1,0 +1,45 @@
+.category-item .item:hover, .item-active{
+    color:#ffa500;
+    font-size: 17px;
+    font-weight: bold;
+}
+.category-item .item{
+    color: #7f7f7f;
+    text-decoration: none;
+}
+.category-item .item .active, .header-item > a{
+    color: #414141;
+    text-decoration: none;
+}
+
+#home-page-left {
+    float: left;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.input-search{
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    color: #495057;
+    display: block;
+    font-family: FontAwesome, Arial; font-style: normal;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+}
+#btn-addCate{
+    width: fit-content;
+    margin: auto;
+    height: 35px;
+    background: #fff;
+    color: #ffa500;
+    border: 1px solid #ffa500;
+    border-radius: 5px;
+}
+#btn-addCate:hover{
+    background: #ffa500;
+    color: #fff;
+}

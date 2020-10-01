@@ -1,0 +1,28 @@
+#masthead-container{
+    width: 100%;
+    height: 56px;
+    border-bottom: 1px solid #dad7d7;
+}
+.btn-addNew{
+    background: #ff0000;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    height: 35px;
+    width: 100px;
+}
+.btn-addNew:hover{
+    background: #fff;
+    color: #ff0000;
+}
+#btn-your-cart i, #list-apps i {
+    color: #b1b0b0;
+    font-size: 25px
+}
+#btn-your-cart i:hover, #list-apps i:hover {
+    color: #fb6f65;
+}
+#img-account i{
+    color: #fb6f65;
+    font-size: 25px
+}
